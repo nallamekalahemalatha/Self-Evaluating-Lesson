@@ -1,0 +1,11 @@
+# Core Dependencies for Self-Evaluating Lesson Content Generator
+pydantic>=2.7.0
+streamlit>=1.35.0
+rich>=13.7.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# LLM Providers (Optional for live API execution, mock mode runs with zero keys)
+google-genai>=0.1.0
+openai>=1.30.0
+requests>=2.31.0
